@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+// Import necessary modules and MUI components
+import React from 'react';
+import TaskInput from './components/TaskInput';
+import TaskList from './components/TaskList';
+import { Container, Typography, Box } from '@mui/material';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container maxWidth="sm">
+      <Box mt={4} mb={2}>
+        <Typography variant="h4" component="h1" align="center" gutterBottom>
+          React To-Do List
+        </Typography>
+        <TaskInput />
+      </Box>
+      <TaskList />
+    </Container>
   );
 }
 
