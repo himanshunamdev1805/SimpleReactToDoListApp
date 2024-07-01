@@ -16,9 +16,11 @@ Clone the Repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/todo-app.git
+git clone https://github.com/himanshunamdev1805/SimpleReactToDoListApp.git
 cd todo-app
 Install Dependencies:
+Install Material-UI : npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
+Install Redux : npm install @reduxjs/toolkit react-redux
 
 bash
 Copy code
