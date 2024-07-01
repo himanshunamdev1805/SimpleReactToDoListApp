@@ -1,6 +1,15 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple To-Do application built with React, Redux, and Material-UI. It allows users to add, view, edit, delete, and mark tasks as completed. The application also persists tasks in local storage, so they are retained even after a page reload.
+
+Features
+Add Task: Users can add new tasks.
+View Tasks: Display all added tasks.
+Edit Task: Users can edit tasks.
+Delete Task: Remove tasks from the list.
+Complete Task: Mark tasks as completed.
+Persistent Storage: Tasks are saved in local storage.
+Material-UI: Enhanced UI using Material-UI components.
 
 ## Available Scripts
 
