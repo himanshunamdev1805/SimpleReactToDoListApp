@@ -2,7 +2,7 @@
 
 This is a simple To-Do application built with React, Redux, and Material-UI. It allows users to add, view, edit, delete, and mark tasks as completed. The application also persists tasks in local storage, so they are retained even after a page reload.
 
-Features
+# Features
 Add Task: Users can add new tasks.
 View Tasks: Display all added tasks.
 Edit Task: Users can edit tasks.
@@ -11,9 +11,18 @@ Complete Task: Mark tasks as completed.
 Persistent Storage: Tasks are saved in local storage.
 Material-UI: Enhanced UI using Material-UI components.
 
-## Available Scripts
+## Installation
+Clone the Repository:
 
-In the project directory, you can run:
+bash
+Copy code
+git clone https://github.com/your-username/todo-app.git
+cd todo-app
+Install Dependencies:
+
+bash
+Copy code
+npm install
 
 ### `npm start`
 
